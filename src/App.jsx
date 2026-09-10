@@ -5,16 +5,20 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 
 function App() {
-  return (
+  const student = {
+    name: "Milena",
+    surname: "Lis",
+    className: "4P",
+    specialization: "technik programista"
+  };
 
+  return (
     <>
-    
+      <p>Uczeń: {student.name} {student.surname}</p>
+      <p>Klasa: {student.className}</p>
+      <p>Kierunek: {student.specialization}</p>
     </>
   )
-
 }
 
 export default App
-
-
- 
